@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+{% load static%}
+{% load crispy_forms_tags %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Plabon Datta</title>
+    <link rel="icon" type="image/x-icon" href="{% static 'app/image/favicon.ico' %}">
+    <link rel="stylesheet" href="{% static 'app/css/bootstrap.min.css' %}" type="text/css">
+    <link rel="stylesheet"  type="text/css" href="{% static 'app/css/style.css' %}">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+</head>
+<body>
+<div id="main-wrapper">
+    <!-- page preloader -->
+    <div id="preloader" style="display: none;">
+        <div id="status">
+            <div class="status-mes"></div>
+        </div>
+    </div>
+
+    <!-- header section -->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <header class="header">
+                    <div class="content text-center">
+                        <h1>Hi, I'm Plabon Datta! </h1>
+                        <p class="lead">Web Developer And Designer</p>
+                        <ul class="social-icon" style="list-style: none;">
+                            <li><a href="https://www.facebook.com/plabondatta26/"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                            <li><a href="mailto:plabondatta26@gmail.com"><i class="fa fa-google" aria-hidden="true"></i></a></li>
+                            <li><a href="https://www.instagram.com/pijushdat/"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                        </ul>
+                    </div>
+                    <div class="profile-img"></div>
+                </header>
+            </div>
+            <div class="col-md-6">
+                <section class="intro section-wrapper">
+                    <div class="section-title">
+                        <h2> What I am all about</h2>
+                        <p>
+                            The work I provide is of highest quality, fully responsive, and tested in a wide 
+                        range of devices. I take great care to ensure 
+                        each project is well-documented and easily maintainable so you can 
+                        enhance a website as your company grows.
+                        </p>
+                    </div>
+                </section>
+                <section class="expertise-wrapper section-wrapper " id="expertise">
+                    <div class="col-md-12">
+                            <div class="section-title">
+                                <h2>Expertise</h2>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6" >
+                                    <h3>Front End Designing</h3>
+                                    <p>HTML, CSS, Bootstrap</p>
+                                </div>
+                                <div class="col-md-6" >
+                                    <h3>Back End Development</h3>
+                                    <p>Django, Python</p>
+                                </div>
+                            </div>
+                    </div>
+                </section>
+
+                <section class="section-wrapper skills-wrapper" id="skill">
+                    <div class="col-md-12">
+                        <div class="section-title">
+                            <h2>Skills</h2>
+                        </div>
+                        <div class="progress-item">
+                            <span class="progress-title">Front End Designing</span>
+
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
+                                    <span class="progress-percent"> 60%</span>
+                                </div>
+                            </div>
+                            <!-- .progress -->
+                            <span class="progress-title">Python</span>
+
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%">
+                                    <span class="progress-percent"> 75%</span>
+                                </div>
+                            </div>
+                            <!-- .progress -->
+                            <span class="progress-title">Back End Development</span>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%">
+                                    <span class="progress-percent"> 70%</span>
+                                </div>
+                            </div>
+                            <!-- .progress -->
+                            
+                        </div>
+                       
+                    </div>
+                </section>
+                <section class="section-wrapper section-education" id="education">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="section-title"><h2>Education</h2></div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="content-item">
+                                    <small>2018 - present</small>
+                                    <h3>B.Sc. in Computer science & Engineering </h3>
+                                    <h4>Dhaka International University   </h4>
+                                    <p>Pantho Path,Dhaka</p>
+                                </div>
+                                <!-- .experience-item -->
+                                <div class="content-item">
+                                    <small>2016</small>
+                                    <h3>Higher Secondary Cirtificate</h3>
+                                    <h4>Chandpur Govt. Collage</h4>
+                                    <p>Chandpur</p>
+                                </div>
+                                <!-- .experience-item -->
+                                <div class="content-item">
+                                    <small>2014</small>
+                                    <h3>SSC</h3>
+                                    <h4>Farakkabad High School</h4>
+                                    <p>Farakkabad, Chandpur</p>
+                                </div>
+                                <!-- .experience-item -->
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="section-wrapper section-interest" id="interest">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="section-title">
+                                    <h2>Interest</h2>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- .row -->
+
+                        <div class="row">
+                            <div class="col-md-12" >
+                                <div class="content-item" >
+                                    <h3>Books</h3>
+
+                                    <p>Rabindranath books. Humayan Ahmed books.</p>
+                                </div>
+                                <div class="content-item">
+                                    <h3>Sports</h3>
+
+                                    <p>Cricket,Football.</p>
+
+                                </div>
+                            </div>
+                        </div>
+                        <!-- .row -->
+
+                    </div>
+                </section>
+
+                <section class="section-wrapper section-portfolio" id="portfolio">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="section-title">
+                                    <h2>Portfolio</h2>
+                                </div>
+                                <div class="row">
+                                    <h3 style="color: red;">PORTFOLIO</h3>
+                                </div>
+                            </div>
+                            <div class="section-title">
+                                <h2>Project Link</h2>
+                                <div class="section-item" id="project-link">
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <h6 id="pr">https://pdptube.herokuapp.com/</h6>
+                                            <h6 id="pr">https://pddairy.herokuapp.com/</h6>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                               
+                            </div>
+                            
+                                
+                        </div>
+                    </div>
+                </section>
+                
+                <section class="section-wrapper section-contact" id="contact">
+                    <div class="row">
+                        <div class="section-title">
+                            <h2>Contact</h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="section-item">
+                            <div class="col-md-12">
+                                <h3>Address</h3>
+                                <p>Shapdi, Chandpur sadar, Chandpur</p>
+                            </div>
+                            <div class="col-md-12">
+                                <h3>Phone</h3>
+                                <p>+880 1797405859</p>
+                            </div>
+                            <div class="col-md-12">
+                                <h3>Email</h3>
+                                <p><a href="mailto:plabondatta26@gmail.com">plabondatta26@gmail.com</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="section-wrapper section-contact" id="gettouch">
+                    <div class="section-title">
+                        <h2>Get in touch</h2>
+                    </div>
+                    <form action="" method="post">
+                        {% csrf_token %}
+                        {{form|crispy}}
+                        <input type="submit" class="btn btn-primary" value="Submit">
+                    </form>
+                </section>
+
+                <section>
+                    <div class="text-center" id="copywrite">
+                        <p>&#169; 2020 Design By: Plabon datta</p>
+                    </div>
+                </section>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<script href="{% static 'app/js/jquery.js' %}"></script>
+<script href="{% static 'app/js/popper.js' %}"></script>
+<script href="{% static 'app/js/all.min.js' %}"></script>
+<script href="{% static 'app/js/bootstrap.min.js' %}"></script>
+</body>
+</html>

@@ -1,0 +1,147 @@
+body {
+    font-family: 'Hind',sans-serif;
+    font-size: 15px;
+    line-height: 1.8em;
+    color: #3d3d50;
+    font-weight: 300;
+    background: #ffffff;
+}
+.container{
+    margin:0 auto;
+    widows: 2100px;;
+}
+
+
+.header {
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    vertical-align: middle;
+    position: relative;
+    
+}
+
+.header .content {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    margin: 0 auto;
+    padding: 10%;
+}
+
+.header .content h1 {
+    font-size: 36px;
+    color: gray;
+    line-height: 1;
+    margin: 0;
+    font-weight: 700;
+}
+
+
+.header .content p {
+    font-size: 18px;
+    color: white;
+}
+
+
+.header .content .social-icon li {
+    display: inline-block;
+    margin: 0 2px;
+
+}
+
+li {
+    
+    text-align: -webkit-match-parent;
+}
+.header .profile-img{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(
+      rgba(255, 0, 0, 0.45),
+      rgba(255, 0, 0, 0.45)
+    ),
+    background-image: url('/static/app/image/new3.jpg');
+    background-size: cover;
+    background-position: center top;
+
+}
+
+.section-title h2 {
+    margin-bottom: 5px;
+    color: #bebece;
+}
+
+h2 {
+    font-size: 18px;
+    line-height: 1.8em;
+    font-weight: 700;
+}
+
+.section-title p{
+    text-align: left;
+    width: 100%;
+}
+p{
+    margin: 10px 0px 20px;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+
+}
+
+.section-wrapper {
+    padding: 50px;
+}
+
+#education, #expertise, #portfolio, #gettouch{
+    background-color:  #f9f9f9;
+}
+
+#ex{
+    display: inline-block;
+}
+
+#skill{
+    margin-top: 20px;
+}
+
+.content-item {
+    margin-bottom: 40px;
+}
+
+.content-item small {
+    color: #888888;
+}
+.small, small {
+    font-size: 85%;
+}
+
+.content-item h3 {
+    margin: 0 0 10px;
+    line-height: 1;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+
+form{
+    margin : 10px;
+}
+
+#copywrite{
+background-color: black;
+color:white;
+height:50px;
+width:100%;
+border-radius: 6px;
+}
+#copywrite p{
+padding:10px;}

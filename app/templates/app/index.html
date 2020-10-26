@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+{% load static%}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Plabon Datta</title>
+    <link rel="stylesheet" href="{% static 'app/css/bootstrap.min.css' %}" type="text/css">
+    <link rel="stylesheet" href="{% static 'app/css/style.css' %}" type="text/css">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" >Plabon Datta</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item ">
+        <a class="nav-link" href="#">Home <span class="sr-only"></span></a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Work <span class="sr-only"></span></a>
+      </li>
+      <li class="d-flex justify-content-end">
+        <a class="nav-link" href="#">Blog <span class="sr-only"></span></a>
+      </li>
+
+    </ul>
+
+  </div>
+</nav>
+</head>
+<body>
+<div id="profile_section">
+    
+            <div  id="picture">
+                <img src="{% static 'app/image/Picture.jpg'%}">
+             </div>
+            <div>
+                <div id="profile_details">
+                  <h4>Hello, I'm Plabon</h4>
+                <h2>Working on Webdesign & Development</h2>
+                <p> Currently available for select project, collaborations and consulting.</p>
+
+                <a href="" id="git"> See my Work</a>
+
+                </div>
+            </div>
+    </div>
+    </div>
+</div>
+<div class="container">
+  <div class="text-center"> 
+    <h2>SERVICES</h2>
+  </div>
+</div>
+
+
+<script href="{% static 'app/js/jquery.js' %}"></script>
+<script href="{% static 'app/js/popper.js' %}"></script>
+<script href="{% static 'app/js/bootstrap.min.js' %}"></script>
+</body>
+</html>
